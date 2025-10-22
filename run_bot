@@ -1,0 +1,51 @@
+Script started on Wed Oct 22 15:49:40 2025
+[1m[7m%[27m[1m[0m                                                                                                    ]7;file://MacBook-Pro-174.local/Users/madimcnearney/cs300/courseadvisor2[0m[27m[24m[Jmadimcnearney@MacBook-Pro-174 courseadvisor2 % [K[?2004hcode .git push[8Dcode .        [7mmadimcnearney@MacBook-Pro-174 courseadvisor2 % [27m[47D[27mm[27ma[27md[27mi[27mm[27mc[27mn[27me[27ma[27mr[27mn[27me[27my[27m@[27mM[27ma[27mc[27mB[27mo[27mo[27mk[27m-[27mP[27mr[27mo[27m-[27m1[27m7[27m4[27m [27mc[27mo[27mu[27mr[27ms[27me[27ma[27md[27mv[27mi[27ms[27mo[27mr[27m2[27m [27m%[27m                                           m  uuv run puyth    ython coyr  urse_advisor_agent.py[?2004l
+Course Advisor Bot 2.0 — type 'exit' to quit.
+
+[2;36m[10/22/25 15:50:28][0m[2;36m [0m[34mINFO    [0m Processing request of type ListToolsRequest               ]8;id=565546;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mserver.py[0m]8;;\[2m:[0m]8;id=827791;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py#664\[2m664[0m]8;;\
+Loaded tools: find_courses, find_sections, find_sections_by_department, find_sections_by_level, find_sections_by_time, get_section_details, find_sections_filtered
+
+You: find_courses
+Bot: Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (e.g., 'computer science', 'english'), or *constraints* (e.g., '300-level morning')?
+
+You: C AI
+[2;36m[10/22/25 15:50:39][0m[2;36m [0m[34mINFO    [0m Processing request of type CallToolRequest                ]8;id=261506;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mserver.py[0m]8;;\[2m:[0m]8;id=54024;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py#664\[2m664[0m]8;;\
+Bot: ENGL 250-C — Literature of Faith: The Reformation
+Time: TTH | 10:20 AM - 12:00 PM | 01/20/2026 - 03/06/2026
+
+
+
+You: 300-level morning
+[2;36m[10/22/25 15:50:48][0m[2;36m [0m[34mINFO    [0m Processing request of type CallToolRequest                ]8;id=520444;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mserver.py[0m]8;;\[2m:[0m]8;id=478118;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py#664\[2m664[0m]8;;\
+Bot: ENGL 300-A — Adv Studies in Global Lit: A Passage to (and from) India
+Time: MWF | 11:00 AM - 12:05 PM | 01/20/2026 - 05/07/2026
+
+
+
+You: cs
+[2;36m[10/22/25 15:50:53][0m[2;36m [0m[34mINFO    [0m Processing request of type CallToolRequest                ]8;id=261824;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mserver.py[0m]8;;\[2m:[0m]8;id=589069;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py#664\[2m664[0m]8;;\
+Bot: CS 108-A — Introduction to Computing
+Time: MWF | 1:30 PM - 2:35 PM | 01/20/2026 - 05/07/2026
+
+
+
+You: bi  ethics
+[2;36m[10/22/25 15:51:02][0m[2;36m [0m[34mINFO    [0m Processing request of type CallToolRequest                ]8;id=446055;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py\[2mserver.py[0m]8;;\[2m:[0m]8;id=670266;file:///Users/madimcnearney/cs300/.venv/lib/python3.12/site-packages/mcp/server/lowlevel/server.py#664\[2m664[0m]8;;\
+Bot: SPAUD 399-A — Critical Reflections in Speech Pathology
+Time: TTH | 10:20 AM - 12:00 PM | 01/20/2026 - 05/07/2026
+
+
+
+You: th  quit
+Bye!
+[1m[7m%[27m[1m[0m                                                                                                    ]7;file://MacBook-Pro-174.local/Users/madimcnearney/cs300/courseadvisor2[0m[27m[24m[Jmadimcnearney@MacBook-Pro-174 courseadvisor2 % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    ]7;file://MacBook-Pro-174.local/Users/madimcnearney/cs300/courseadvisor2[0m[27m[24m[Jmadimcnearney@MacBook-Pro-174 courseadvisor2 % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                    ]7;file://MacBook-Pro-174.local/Users/madimcnearney/cs300/courseadvisor2[0m[27m[24m[Jmadimcnearney@MacBook-Pro-174 courseadvisor2 % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...      24 completed.
+
+Script done on Wed Oct 22 15:52:52 2025

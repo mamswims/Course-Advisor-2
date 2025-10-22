@@ -1,0 +1,124 @@
+{"ts": "2025-10-09T00:51:33.408257Z", "role": "system", "text": "You are Course Advisor Bot 2.0 \u2014 a friendly, pragmatic advisor. Maintain context, ask concise clarifying questions when constraints are ambiguous, and call tools to fetch section-level results. Prefer a small, relevant set with clear next steps.", "meta": {}}
+{"ts": "2025-10-09T00:51:41.159852Z", "role": "user", "text": "find_courses", "meta": {}}
+{"ts": "2025-10-09T00:51:41.161581Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T00:52:06.479052Z", "role": "user", "text": "300-level morning", "meta": {}}
+{"ts": "2025-10-09T00:52:16.422043Z", "role": "system", "text": "You are Course Advisor Bot 2.0 \u2014 a friendly, pragmatic advisor. Maintain context, ask concise clarifying questions when constraints are ambiguous, and call tools to fetch section-level results. Prefer a small, relevant set with clear next steps.", "meta": {}}
+{"ts": "2025-10-09T00:52:26.886483Z", "role": "user", "text": "find_sections_by_time", "meta": {}}
+{"ts": "2025-10-09T00:52:26.887924Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T00:52:37.272234Z", "role": "user", "text": "interests", "meta": {}}
+{"ts": "2025-10-09T00:52:37.272828Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T00:52:44.971731Z", "role": "user", "text": "*interest*", "meta": {}}
+{"ts": "2025-10-09T00:52:44.972197Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T00:52:47.954505Z", "role": "user", "text": "AI", "meta": {}}
+{"ts": "2025-10-09T00:56:05.784875Z", "role": "system", "text": "You are Course Advisor Bot 2.0 \u2014 a friendly, pragmatic advisor. Maintain context, ask concise clarifying questions when constraints are ambiguous, and call tools to fetch section-level results. Prefer a small, relevant set with clear next steps.", "meta": {}}
+{"ts": "2025-10-09T00:56:14.664114Z", "role": "user", "text": "find_courses", "meta": {}}
+{"ts": "2025-10-09T00:56:14.665557Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T00:56:18.232367Z", "role": "user", "text": "AI", "meta": {}}
+{"ts": "2025-10-09T00:56:18.241510Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"query": "AI", "limit": 20}, "latency_s": 0.009}}
+{"ts": "2025-10-09T00:56:25.013817Z", "role": "user", "text": "ethics", "meta": {}}
+{"ts": "2025-10-09T00:56:25.020008Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"query": "ethics", "limit": 20}, "latency_s": 0.006}}
+{"ts": "2025-10-09T00:56:29.320404Z", "role": "user", "text": "300", "meta": {}}
+{"ts": "2025-10-09T00:56:29.326155Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": null, "level": "300", "time_of_day": null, "limit": 20}, "latency_s": 0.005}}
+{"ts": "2025-10-09T00:56:32.126323Z", "role": "user", "text": "300-level", "meta": {}}
+{"ts": "2025-10-09T00:56:32.131903Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": null, "level": "300", "time_of_day": null, "limit": 20}, "latency_s": 0.005}}
+{"ts": "2025-10-09T15:56:38.809217Z", "role": "user", "text": "bye", "meta": {}}
+{"ts": "2025-10-09T15:56:38.811221Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:15:59.822935Z", "role": "system", "text": "You are Course Advisor Bot 2.0 \u2014 a friendly, pragmatic advisor. Maintain context, ask concise clarifying questions when constraints are ambiguous, and call tools to fetch section-level results. Prefer a small, relevant set with clear next steps.", "meta": {}}
+{"ts": "2025-10-09T16:16:09.498808Z", "role": "user", "text": "find_courses", "meta": {}}
+{"ts": "2025-10-09T16:16:09.500100Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:16:11.558190Z", "role": "user", "text": "AI", "meta": {}}
+{"ts": "2025-10-09T16:16:11.581505Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"query": "AI", "limit": 20}, "latency_s": 0.023}}
+{"ts": "2025-10-09T16:16:17.965572Z", "role": "user", "text": "ethics", "meta": {}}
+{"ts": "2025-10-09T16:16:17.973613Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"query": "ethics", "limit": 20}, "latency_s": 0.008}}
+{"ts": "2025-10-09T16:25:23.561989Z", "role": "system", "text": "You are Course Advisor Bot 2.0 \u2014 a friendly, pragmatic advisor. Maintain context, ask concise clarifying questions when constraints are ambiguous, and call tools to fetch section-level results. Prefer a small, relevant set with clear next steps.", "meta": {}}
+{"ts": "2025-10-09T16:25:32.309339Z", "role": "user", "text": "find_courses", "meta": {}}
+{"ts": "2025-10-09T16:25:32.310515Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:25:34.487925Z", "role": "user", "text": "AI", "meta": {}}
+{"ts": "2025-10-09T16:25:34.515441Z", "role": "assistant", "text": "ENGL 250-C \u2014 Literature of Faith: The Reformation\nTime: TTH | 10:20 AM - 12:00 PM | 01/20/2026 - 03/06/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"query": "AI", "limit": 20}, "latency_s": 0.027}}
+{"ts": "2025-10-09T16:25:54.049986Z", "role": "user", "text": "ethics", "meta": {}}
+{"ts": "2025-10-09T16:25:54.063827Z", "role": "assistant", "text": "SPAUD 399-A \u2014 Critical Reflections in Speech Pathology\nTime: TTH | 10:20 AM - 12:00 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"query": "ethics", "limit": 20}, "latency_s": 0.013}}
+{"ts": "2025-10-09T16:25:58.057941Z", "role": "user", "text": "math", "meta": {}}
+{"ts": "2025-10-09T16:25:58.069079Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "MATH", "level": null, "time_of_day": null, "limit": 20}, "latency_s": 0.011}}
+{"ts": "2025-10-09T16:26:06.916967Z", "role": "user", "text": "ENGL", "meta": {}}
+{"ts": "2025-10-09T16:26:06.926908Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "ENGL", "level": null, "time_of_day": null, "limit": 20}, "latency_s": 0.009}}
+{"ts": "2025-10-09T16:26:11.898705Z", "role": "user", "text": "300-level morning", "meta": {}}
+{"ts": "2025-10-09T16:26:11.909644Z", "role": "assistant", "text": "ENGL 300-A \u2014 Adv Studies in Global Lit: A Passage to (and from) India\nTime: MWF | 11:00 AM - 12:05 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": null, "level": "300", "time_of_day": "morning", "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:26:32.206703Z", "role": "user", "text": "CS morning", "meta": {}}
+{"ts": "2025-10-09T16:26:32.217607Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": null, "time_of_day": "morning", "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:26:34.661511Z", "role": "user", "text": "bye", "meta": {}}
+{"ts": "2025-10-09T16:26:34.661973Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:26:43.519639Z", "role": "user", "text": "300-level morning", "meta": {}}
+{"ts": "2025-10-09T16:26:43.531150Z", "role": "assistant", "text": "ENGL 300-A \u2014 Adv Studies in Global Lit: A Passage to (and from) India\nTime: MWF | 11:00 AM - 12:05 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": null, "level": "300", "time_of_day": "morning", "limit": 20}, "latency_s": 0.011}}
+{"ts": "2025-10-09T16:26:47.486858Z", "role": "user", "text": "cs", "meta": {}}
+{"ts": "2025-10-09T16:26:47.497679Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": null, "time_of_day": null, "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:26:51.054259Z", "role": "user", "text": "CS", "meta": {}}
+{"ts": "2025-10-09T16:26:51.065289Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": null, "time_of_day": null, "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:26:55.415368Z", "role": "user", "text": "CS/ENGL", "meta": {}}
+{"ts": "2025-10-09T16:26:55.425029Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": null, "time_of_day": null, "limit": 20}, "latency_s": 0.009}}
+{"ts": "2025-10-09T16:26:57.019500Z", "role": "user", "text": "bye", "meta": {}}
+{"ts": "2025-10-09T16:26:57.019976Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:26:58.851225Z", "role": "user", "text": "CS", "meta": {}}
+{"ts": "2025-10-09T16:26:58.860758Z", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": null, "time_of_day": null, "limit": 20}, "latency_s": 0.009}}
+{"ts": "2025-10-09T16:31:38.582082Z", "role": "user", "text": "bye", "meta": {}}
+{"ts": "2025-10-09T16:31:38.583524Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:31:43.923013Z", "role": "user", "text": "bye", "meta": {}}
+{"ts": "2025-10-09T16:31:43.923498Z", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:31:48.190747+00:00", "role": "system", "text": "You are Course Advisor Bot 2.0 \u2014 a friendly, pragmatic advisor. Maintain context, ask concise clarifying questions when constraints are ambiguous, and call tools to fetch section-level results. Prefer a small, relevant set with clear next steps.", "meta": {}}
+{"ts": "2025-10-09T16:31:55.284608+00:00", "role": "user", "text": "AI", "meta": {}}
+{"ts": "2025-10-09T16:31:55.329673+00:00", "role": "assistant", "text": "ENGL 250-C \u2014 Literature of Faith: The Reformation\nTime: TTH | 10:20 AM - 12:00 PM | 01/20/2026 - 03/06/2026\n\n", "meta": {"tool": "find_courses", "args": {"query": "AI", "limit": 20}, "latency_s": 0.043}}
+{"ts": "2025-10-09T16:31:56.967486+00:00", "role": "user", "text": "ethics", "meta": {}}
+{"ts": "2025-10-09T16:31:56.981995+00:00", "role": "assistant", "text": "SPAUD 399-A \u2014 Critical Reflections in Speech Pathology\nTime: TTH | 10:20 AM - 12:00 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_courses", "args": {"query": "ethics", "limit": 20}, "latency_s": 0.014}}
+{"ts": "2025-10-09T16:32:02.388758+00:00", "role": "user", "text": "300-level morning", "meta": {}}
+{"ts": "2025-10-09T16:32:02.401122+00:00", "role": "assistant", "text": "ENGL 300-A \u2014 Adv Studies in Global Lit: A Passage to (and from) India\nTime: MWF | 11:00 AM - 12:05 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": null, "level": "300", "time_of_day": "morning", "limit": 20}, "latency_s": 0.012}}
+{"ts": "2025-10-09T16:32:05.815150+00:00", "role": "user", "text": "CS 300-level", "meta": {}}
+{"ts": "2025-10-09T16:32:05.824990+00:00", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": "300", "time_of_day": null, "limit": 20}, "latency_s": 0.009}}
+{"ts": "2025-10-09T16:32:13.738462+00:00", "role": "user", "text": "details ENGL 300-A", "meta": {}}
+{"ts": "2025-10-09T16:32:13.749670+00:00", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "ENGL", "level": "300", "time_of_day": null, "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:36:28.493311+00:00", "role": "system", "text": "You are Course Advisor Bot 2.0 \u2014 a friendly, pragmatic advisor. Maintain context, ask concise clarifying questions when constraints are ambiguous, and call tools to fetch section-level results. Prefer a small, relevant set with clear next steps.", "meta": {}}
+{"ts": "2025-10-09T16:36:40.247436+00:00", "role": "user", "text": "get_section_details", "meta": {}}
+{"ts": "2025-10-09T16:36:40.248960+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:36:48.798847+00:00", "role": "user", "text": "details ENGL 300-A", "meta": {}}
+{"ts": "2025-10-09T16:36:48.826044+00:00", "role": "assistant", "text": "Hmm, I couldn't find that section id. Double-check and try again.", "meta": {"tool": "get_section_details", "args": {"section_id": "ENGL 300-A"}, "latency_s": 0.027}}
+{"ts": "2025-10-09T16:36:55.589801+00:00", "role": "user", "text": "details CS300", "meta": {}}
+{"ts": "2025-10-09T16:36:55.590496+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:37:05.211762+00:00", "role": "user", "text": "details CS300", "meta": {}}
+{"ts": "2025-10-09T16:37:05.212194+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:37:08.491834+00:00", "role": "user", "text": "AI", "meta": {}}
+{"ts": "2025-10-09T16:37:08.524152+00:00", "role": "assistant", "text": "ENGL 250-C \u2014 Literature of Faith: The Reformation\nTime: TTH | 10:20 AM - 12:00 PM | 01/20/2026 - 03/06/2026\n\n", "meta": {"tool": "find_courses", "args": {"query": "AI"}, "latency_s": 0.031}}
+{"ts": "2025-10-09T16:37:13.909239+00:00", "role": "user", "text": "ethics", "meta": {}}
+{"ts": "2025-10-09T16:37:13.923718+00:00", "role": "assistant", "text": "SPAUD 399-A \u2014 Critical Reflections in Speech Pathology\nTime: TTH | 10:20 AM - 12:00 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_courses", "args": {"query": "ethics"}, "latency_s": 0.014}}
+{"ts": "2025-10-09T16:37:20.066744+00:00", "role": "user", "text": "CSCI morning", "meta": {}}
+{"ts": "2025-10-09T16:37:20.077385+00:00", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CSCI", "level": null, "time_of_day": "morning", "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:37:22.664470+00:00", "role": "user", "text": "CS mornign", "meta": {}}
+{"ts": "2025-10-09T16:37:22.674711+00:00", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": null, "time_of_day": null, "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:37:25.014066+00:00", "role": "user", "text": "Cs morning", "meta": {}}
+{"ts": "2025-10-09T16:37:25.024206+00:00", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": null, "time_of_day": "morning", "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:37:27.174172+00:00", "role": "user", "text": "CS morning", "meta": {}}
+{"ts": "2025-10-09T16:37:27.183890+00:00", "role": "assistant", "text": "No results matched. Try adding a keyword, department, or level.", "meta": {"tool": "find_sections_filtered", "args": {"department": "CS", "level": null, "time_of_day": "morning", "limit": 20}, "latency_s": 0.009}}
+{"ts": "2025-10-09T16:38:49.102535+00:00", "role": "user", "text": "bye", "meta": {}}
+{"ts": "2025-10-09T16:38:49.103087+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (CS/ENGL), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:43:33.451243+00:00", "role": "system", "text": "You are Course Advisor Bot 2.0 \u2014 a friendly, pragmatic advisor. Maintain context, ask concise clarifying questions when constraints are ambiguous, and call tools to fetch section-level results. Prefer a small, relevant set with clear next steps.", "meta": {}}
+{"ts": "2025-10-09T16:43:38.286219+00:00", "role": "user", "text": "CS300", "meta": {}}
+{"ts": "2025-10-09T16:43:38.289545+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (e.g., 'computer science', 'english'), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-09T16:43:41.909186+00:00", "role": "user", "text": "CS 300", "meta": {}}
+{"ts": "2025-10-09T16:43:41.935469+00:00", "role": "assistant", "text": "CS 300-A \u2014 Special Topics: Network Security\nTime: MWF | 12:15 PM - 1:20 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": "COMPUTER SCIENCE", "level": "300", "time_of_day": null, "limit": 20}, "latency_s": 0.026}}
+{"ts": "2025-10-09T16:43:48.212580+00:00", "role": "user", "text": "details CS 300", "meta": {}}
+{"ts": "2025-10-09T16:43:48.226002+00:00", "role": "assistant", "text": "CS 300-A \u2014 Special Topics: Network Security\nTime: MWF | 12:15 PM - 1:20 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": "COMPUTER SCIENCE", "level": "300", "time_of_day": null, "limit": 20}, "latency_s": 0.012}}
+{"ts": "2025-10-09T16:43:58.094277+00:00", "role": "user", "text": "ENGLISH 200-level afternoon", "meta": {}}
+{"ts": "2025-10-09T16:43:58.105496+00:00", "role": "assistant", "text": "ENGL 275-A \u2014 English Syntax\nTime: TTH | 2:10 PM - 3:50 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": "ENGLISH", "level": "200", "time_of_day": "afternoon", "limit": 20}, "latency_s": 0.011}}
+{"ts": "2025-10-09T16:44:02.005444+00:00", "role": "user", "text": "computer science morning", "meta": {}}
+{"ts": "2025-10-09T16:44:02.016716+00:00", "role": "assistant", "text": "CS 112-A \u2014 Introduction to Data Structures\nTime: MWF | 11:00 AM - 12:05 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": "COMPUTER SCIENCE", "level": null, "time_of_day": "morning", "limit": 20}, "latency_s": 0.011}}
+{"ts": "2025-10-09T16:44:06.762685+00:00", "role": "user", "text": "IS morning", "meta": {}}
+{"ts": "2025-10-09T16:44:06.773752+00:00", "role": "assistant", "text": "INFO 201-A \u2014 Introduction to Management Information Systems\nTime: MWF | 9:15 AM - 10:20 AM | 01/20/2026 - 05/07/2026; MWF | 9:15 AM - 10:20 AM | 01/20/2026 - 05/07/2026; TTH | 8:00 AM - 9:40 AM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": "INFORMATION SYSTEMS (INFO)", "level": null, "time_of_day": "morning", "limit": 20}, "latency_s": 0.01}}
+{"ts": "2025-10-09T16:44:28.016581+00:00", "role": "user", "text": "computer science morning", "meta": {}}
+{"ts": "2025-10-09T16:44:28.029101+00:00", "role": "assistant", "text": "CS 112-A \u2014 Introduction to Data Structures\nTime: MWF | 11:00 AM - 12:05 PM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": "COMPUTER SCIENCE", "level": null, "time_of_day": "morning", "limit": 20}, "latency_s": 0.012}}
+{"ts": "2025-10-10T15:04:31.917184+00:00", "role": "user", "text": "can I see details for that one?", "meta": {}}
+{"ts": "2025-10-10T15:04:31.920925+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (e.g., 'computer science', 'english'), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-10T15:04:34.866458+00:00", "role": "user", "text": "\u001b[A", "meta": {}}
+{"ts": "2025-10-10T15:04:34.867226+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (e.g., 'computer science', 'english'), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-10T15:04:42.463976+00:00", "role": "user", "text": "can I see details for CS300", "meta": {}}
+{"ts": "2025-10-10T15:04:42.464503+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (e.g., 'computer science', 'english'), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
+{"ts": "2025-10-10T15:04:50.999784+00:00", "role": "user", "text": "can I see details for INFO 201", "meta": {}}
+{"ts": "2025-10-10T15:04:51.039448+00:00", "role": "assistant", "text": "INFO 201-A \u2014 Introduction to Management Information Systems\nTime: MWF | 9:15 AM - 10:20 AM | 01/20/2026 - 05/07/2026; MWF | 9:15 AM - 10:20 AM | 01/20/2026 - 05/07/2026; TTH | 8:00 AM - 9:40 AM | 01/20/2026 - 05/07/2026\n\n", "meta": {"tool": "find_sections_filtered", "args": {"department": "INFORMATION SYSTEMS (INFO)", "level": null, "time_of_day": null, "limit": 20}, "latency_s": 0.036}}
+{"ts": "2025-10-10T15:04:59.177651+00:00", "role": "user", "text": "can I see details for that one", "meta": {}}
+{"ts": "2025-10-10T15:04:59.178478+00:00", "role": "assistant", "text": "Do you want to search by *interest* (e.g., 'AI', 'ethics'), *department* (e.g., 'computer science', 'english'), or *constraints* (e.g., '300-level morning')?", "meta": {"intent": {"tool": null, "args": {}}}}
